@@ -1,0 +1,260 @@
+CSE 471 Project 1
+Group Members: Ria Mokashi
+Score File Format
+  <score bpm="120" beatspermeasure="4">
+
+  <instrument instrument="Drum" 
+
+  <note measure="1" beat="1.0;" note="Bottle" pitch="4"</note>
+
+  </instrument>
+
+  <instrument instrument="Chorus" 
+
+  <note measure="1" delay=".0025" wet=".7" dry=".3"</note>
+  <note measure="1" beat="1;" delay=".0025" wet=".8"< dry=".2"</note>
+
+  </instrument>
+
+  <instrument instrument="Noise Gate" 
+
+  <note measure="1" delay=".0025" wet=".5" dry=".5"< threshold=".1"</note>
+
+  </instrument>
+
+  <instrument instrument="Flange" 
+
+  <note measure="1" delay=".0025" wet=".7" dry=".3"</note>
+
+  </instrument>
+
+</score>
+
+Final Score File
+
+<?xml version="1.0" encoding="utf-8"?>
+<score bpm="132" beatspermeasure="4">
+
+
+
+<instrument instrument="ToneInstrument">
+          <note measure="1" beat="1" duration="0.5" note="G4"/>
+		  <note measure="1" beat="3" duration="1" note="C5"/>
+		  <note measure="2" beat="1" duration="0.5" note="G4"/>
+		  <note measure="2" beat="3" duration="1" note="E4"/>
+
+		  <note measure="3" beat="1" duration="0.5" note="F4"/>
+		  <note measure="3" beat="3" duration="1" note="G4"/>
+
+		  <note measure="4" beat="1" duration="0.5" note="C5"/>
+		  <note measure="4" beat="3" duration="1" note="G4"/>
+
+		  <note measure="5" beat="1" duration="0.5" note="C5"/>
+		  <note measure="5" beat="2" duration=".5" note="G4"/>
+		  <note measure="5" beat="3" duration="0.5" note="C5"/>
+		  <note measure="5" beat="4" duration=".5" note="G4"/>
+
+		  <note measure="6" beat="1" duration="0.5" note="E4"/>
+		  <note measure="6" beat="2" duration=".5" note="D4"/>
+		  <note measure="6" beat="3" duration="0.5" note="C4"/>
+		  <note measure="6" beat="4" duration=".5" note="A4"/>
+
+		  <note measure="7" beat="1" duration="0.5" note="G4"/>
+		  <note measure="7" beat="2" duration=".5" note="C5"/>
+		  <note measure="7" beat="3" duration="0.5" note="G4"/>
+		  <note measure="7" beat="4" duration=".5" note="E4"/>
+
+		  <note measure="8" beat="1" duration="0.5" note="F4"/>
+		  <note measure="8" beat="2" duration=".5" note="G4"/>
+		  <note measure="8" beat="3" duration="0.5" note="C5"/>
+		  <note measure="8" beat="4" duration=".5" note="G4"/>
+
+		  <note measure="9" beat="1" duration="0.5" note="C5"/>
+		  <note measure="9" beat="2" duration=".5" note="A4"/>
+		  <note measure="9" beat="3" duration="0.5" note="G4"/>
+		  <note measure="9" beat="4" duration=".5" note="F4"/>
+
+		  <note measure="10" beat="1" duration="0.5" note="E4"/>
+		  <note measure="10" beat="2" duration=".5" note="D4"/>
+		  <note measure="10" beat="3" duration="0.5" note="C5"/>
+		  <note measure="10" beat="4" duration=".5" note="E4"/>
+
+		  <note measure="7" beat="1" duration="0.5" note="C5"/>
+		  <note measure="7" beat="2" duration=".5" note="C5"/>
+		  <note measure="7" beat="3" duration="0.5" note="G4"/>
+
+		  <note measure="8" beat="1" duration="0.5" note="C4"/>
+		  <note measure="8" beat="2" duration=".5" note="C4"/>
+		  <note measure="8" beat="3" duration="0.5" note="F5"/>
+		  <note measure="8" beat="4" duration=".5" note="C4"/>
+
+		  <note measure="11" beat="1" duration="0.5" note="E4"/>
+		  <note measure="11" beat="2" duration=".5" note="D4"/>
+		  <note measure="11" beat="3" duration="0.5" note="C5"/>
+		  
+		  <note measure="11" beat="4" duration="4" note="C5"/>
+          
+		  <note measure="12" beat="1" duration="0.5" note="G4"/>
+		  <note measure="12" beat="3" duration="1" note="C5"/>
+		  <note measure="13" beat="1" duration="0.5" note="G4"/>
+		  <note measure="13" beat="3" duration="1" note="E4"/>
+
+		  <note measure="14" beat="1" duration="0.5" note="F4"/>
+		  <note measure="14" beat="3" duration="1" note="G4"/>
+
+		  <note measure="15" beat="1" duration="0.5" note="C5"/>
+		  <note measure="15" beat="3" duration="1" note="G4"/>
+
+		  <note measure="16" beat="1" duration="0.5" note="C5"/>
+		  <note measure="16" beat="2" duration=".5" note="G4"/>
+		  <note measure="16" beat="3" duration="0.5" note="C5"/>
+		  <note measure="16" beat="4" duration=".5" note="G4"/>
+
+		  <note measure="17" beat="1" duration="0.5" note="E4"/>
+		  <note measure="17" beat="2" duration=".5" note="D4"/>
+		  <note measure="17" beat="3" duration="0.5" note="C4"/>
+		  <note measure="17" beat="4" duration=".5" note="A4"/>
+
+		  <note measure="18" beat="1" duration="0.5" note="G4"/>
+		  <note measure="18" beat="2" duration=".5" note="C5"/>
+		  <note measure="18" beat="3" duration="0.5" note="G4"/>
+		  <note measure="18" beat="4" duration=".5" note="E4"/>
+
+		  <note measure="19" beat="1" duration="0.5" note="F4"/>
+		  <note measure="19" beat="2" duration=".5" note="G4"/>
+		  <note measure="19" beat="3" duration="0.5" note="C5"/>
+		  <note measure="19" beat="4" duration=".5" note="G4"/>
+
+		  <note measure="20" beat="1" duration="0.5" note="C5"/>
+		  <note measure="20" beat="2" duration=".5" note="A4"/>
+		  <note measure="20" beat="3" duration="0.5" note="G4"/>
+		  <note measure="20" beat="4" duration=".5" note="F4"/>
+
+		  <note measure="21" beat="1" duration="0.5" note="E4"/>
+		  <note measure="21" beat="2" duration=".5" note="D4"/>
+		  <note measure="21" beat="3" duration="0.5" note="C5"/>
+		  <note measure="21" beat="4" duration=".5" note="C4"/>
+
+		  <note measure="22" beat="1" duration="0.5" note="E4"/>
+		  <note measure="22" beat="2" duration=".5" note="D4"/>
+		  <note measure="22" beat="3" duration="0.5" note="C5"/>
+		  <note measure="22" beat="4" duration=".5" note="C4"/>
+
+		  <note measure="23" beat="1" duration="0.5" note="C5"/>
+		  <note measure="23" beat="2" duration=".5" note="A4"/>
+		  <note measure="23" beat="3" duration="0.5" note="G4"/>
+		  <note measure="23" beat="4" duration=".5" note="F4"/>
+
+		  <note measure="24" beat="1" duration="0.5" note="E4"/>
+		  <note measure="24" beat="2" duration=".5" note="D4"/>
+		  <note measure="24" beat="3" duration="0.5" note="C5"/>
+		  <note measure="24" beat="4" duration=".5" note="C4"/>
+
+		  <note measure="18" beat="1" duration="0.5" note="C5"/>
+		  <note measure="18" beat="2" duration=".5" note="C5"/>
+		  <note measure="18" beat="3" duration="0.5" note="G4"/>
+
+		  <note measure="19" beat="1" duration="0.5" note="C4"/>
+		  <note measure="19" beat="2" duration=".5" note="C4"/>
+		  <note measure="19" beat="3" duration="0.5" note="F5"/>
+		  <note measure="19" beat="4" duration=".5" note="C4"/>
+
+		  <note measure="25" beat="1" duration="0.5" note="G4"/>
+		  <note measure="25" beat="3" duration="1" note="C5"/>
+		  <note measure="26" beat="1" duration="0.5" note="G4"/>
+		  <note measure="26" beat="3" duration="1" note="E4"/>
+
+		  <note measure="27" beat="1" duration="0.5" note="F4"/>
+		  <note measure="27" beat="3" duration="1" note="G4"/>
+
+		  <note measure="28" beat="1" duration="0.5" note="C5"/>
+		  <note measure="28" beat="3" duration="1" note="G4"/>
+
+		  <note measure="29" beat="1" duration="0.5" note="C5"/>
+		  <note measure="29" beat="2" duration=".5" note="G4"/>
+		  <note measure="29" beat="3" duration="0.5" note="C5"/>
+		  <note measure="29" beat="4" duration=".5" note="G4"/>
+
+		  <note measure="30" beat="1" duration="0.5" note="E4"/>
+		  <note measure="30" beat="2" duration=".5" note="D4"/>
+		  <note measure="30" beat="3" duration="0.5" note="C4"/>
+		  <note measure="30" beat="4" duration=".5" note="A4"/>
+
+		  <note measure="31" beat="1" duration="0.5" note="G4"/>
+		  <note measure="31" beat="2" duration=".5" note="C5"/>
+		  <note measure="31" beat="3" duration="0.5" note="G4"/>
+		  <note measure="31" beat="4" duration=".5" note="E4"/>
+
+		  <note measure="32" beat="1" duration="0.5" note="F4"/>
+		  <note measure="32" beat="2" duration=".5" note="G4"/>
+		  <note measure="32" beat="3" duration="0.5" note="C5"/>
+		  <note measure="32" beat="4" duration=".5" note="G4"/>
+
+		  <note measure="33" beat="1" duration="0.5" note="C5"/>
+		  <note measure="33" beat="2" duration=".5" note="A4"/>
+		  <note measure="33" beat="3" duration="0.5" note="G4"/>
+		  <note measure="33" beat="4" duration=".5" note="F4"/>
+
+		  <note measure="34" beat="1" duration="0.5" note="E4"/>
+		  <note measure="34" beat="2" duration=".5" note="D4"/>
+		  <note measure="34" beat="3" duration="0.5" note="C5"/>
+		  <note measure="34" beat="4" duration=".5" note="E4"/>
+
+		  <note measure="35" beat="1" duration="0.5" note="E4"/>
+		  <note measure="35" beat="2" duration=".5" note="D4"/>
+		  <note measure="35" beat="3" duration="0.5" note="C5"/>
+		  <note measure="35" beat="4" duration="4" note="C5"/>
+
+		  
+   </instrument>
+   	<instrument instrument="DrumInstrument">
+		<note measure="1" beat="1.0" note="Snare"  pitch="4" />
+		<note measure="1" beat="3.0" note="Toms"  pitch="2" />
+        <note measure="2" beat="1.0" note="BassDrum"  pitch="4" />
+		<note measure="2" beat="3.0" note="Cymbals"  pitch="2" />
+        <note measure="3" beat="1.0" note="Snare"  pitch="4" />
+		<note measure="3" beat="3.0" note="Toms2"  pitch="2" />
+	    <note measure="11" beat="4.0" note="Toms2"  pitch="2" />
+		<note measure="24" beat="4.0" note="BassDrum"  pitch="2" />
+		<note measure="35" beat="4.0" note="BassDrum"  pitch="4" />
+
+
+	</instrument>
+
+   	<instrument instrument="Chorus">
+		<note measure="1" delay=".0025" wet=".8" dry=".2" />
+		<note measure="2" beat="1" delay=".0025" wet=".8" dry=".2" />
+	</instrument>
+	
+	<instrument instrument="NoiseGate">
+	    <note measure="8" delay=".0025" wet=".5" dry=".5" threshold=".1" />
+  	</instrument>
+
+  <instrument instrument="Flange">
+    <note measure="5" delay=".0025" wet=".25" dry=".75" />
+  </instrument>
+
+</score>
+
+
+Components:
+EFFECTS
+Chorus: Ria Mokashi
+Noise Gate: Ria Mokashi
+Flange: Ria Mokashi
+the effects alter the sound output. 
+10/10 - Component passes audio
+20/20 - 1 Effect
+30/30 - 3 Effects
+40/40 - Controllable effects send
+0/50 - 4 Effects
+
+SYNTH
+Drum Instrument: Ria Mokashi
+This component creats a drum sound. 
+10/10 - Waveform playback from tables
+20/20 - Envelope generation
+30/30 - Polyphony
+35/35 - Varying pitch playback from tables
+0/40 - At least 20 distinct drum sounds
+0/50 - Synthesized drum sound (instead of playback)
